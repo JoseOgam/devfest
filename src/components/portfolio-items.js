@@ -27,21 +27,21 @@ const portfolioItems = [
     idx: 3
   },
   {
-    title: 'Portfolio Item 4',
+    title: 'Still will deploy soon',
     sinopsis: 'Its very minimalist, but that was the end goal',
     desc: 'This was inspired in Dinesh Pandiyan personal page',
     img: './portfolio/EJS.png',
-    repo: 'https://github.com/martin2844',
-    live: 'https://my-ejs-todo-list.herokuapp.com',
+    repo: 'https://github.com/JoseOgam',
+    live: 'https://github.com/JoseOgam',
     idx: 4
   },
   {
-    title: 'Portfolio Item 5',
+    title: 'still writing code',
     sinopsis: 'Please message me at twitter @codigoMate',
     desc: 'I really appriciate any messages',
     img: './portfolio/Mate.png',
-    repo: 'https://github.com/martin2844',
-    live: 'https://codigomate.com',
+    repo: 'https://github.com/JoseOgam',
+    live: 'https://github.com/JoseOgam',
     idx: 5
   }
 
