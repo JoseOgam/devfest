@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  background-color: #FBFBFB; }
+
+hr {
+  color: black;
+  margin-top: 2rem; }
+
+h1 {
+  font-size: 3rem;
+  margin: 0 0 1rem 0;
+  font-family: 'Roboto', sans-serif; }
+
+.attr {
+  font-family: 'Anonymous Pro', monospace;
+  background-color: #eda664;
+  font-size: 1.2rem;
+  margin: 0 .5rem 0 .5rem; }
+
+.attr:hover {
+  background-color: transparent; }
+
+.icons {
+  padding: 1rem; }
+  .icons a {
+    color: black; }
+    .icons a:visited {
+      color: black; }
+  .icons .fab {
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out; }
+    .icons .fab:hover {
+      -webkit-transform: rotate(30deg);
+      transform: rotate(30deg); }
+
+i {
+  font-size: 1.6rem;
+  padding: 1rem; }
+
+.header-main {
+  padding: 2rem 20rem 2rem 20rem;
+  text-align: center; }
+
+.content-main {
+  padding: 2rem 20rem 5rem 20rem;
+  max-width: 60%;
+  margin: 0 auto;
+  line-height: 1.6;
+  word-spacing: 4.5px; }
+
+.pages-link {
+  padding: 0 2rem 0 2rem;
+  margin-bottom: 1rem; }
+  .pages-link a {
+    padding: 0 1rem 1rem 1rem; }
+
+@media (max-width: 1400px) {
+  .header-main {
+    padding: 0; }
+
+  .content-main {
+    padding: 2rem 4rem 5rem; } }
+@media (max-width: 650px) {
+  .header-main {
+    padding: 0; }
+
+  .content-main {
+    padding-bottom: 5rem; } }
+.nodecor {
+  text-decoration: none;
+  color: black; }
+  .nodecor:hover {
+    color: #eda664; }
+
+.pachi {
+  font-family: 'Anonymous Pro', monospace;
+  text-decoration: underline;
+  padding: 50px 0; }
+
+/*# sourceMappingURL=header.styles.css.map */
