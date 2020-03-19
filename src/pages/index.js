@@ -1,8 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import portfolioItems from "../components/portfolio-items"
 import "../styles/index.styles.css"
@@ -25,8 +22,10 @@ function renderFolio() {
           <span className="repolinks" key={"repo" + idx}>
             <a key={"repoLink" + idx} href={repo}>Github Repo</a></span>
 
-          {live ? <span className="repolinks" key={"live" + idx}>
-            <a key={"liveLink" + idx} href={repo}>Check it live</a></span> : null}
+          {live ?
+            <span className="repolinks" key={"live" + idx}>
+            <a key={"liveLink" + idx} href={live}>Check it live</a>
+            </span> : null}
 
         </div>
       </div>

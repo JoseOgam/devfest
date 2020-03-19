@@ -30,25 +30,22 @@ const Header = () => {
           <span className="dot">•</span>
         </div>
         <div className="icons">
-          <a href='' target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-github"/>
-          </a>
-          <a href='' target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-twitter"/>
-          </a>
-          <a href='' target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-dev"/>
-          </a>
-          <a href='' target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-linkedin"/>
-          </a>
+          <a href='https://github.com/JoseOgam' target="_blank" rel="noopener noreferrer"><i
+            className="fab fa-github"/></a>
+          <a href='https://twitter.com/joseogam' target="_blank" rel="noopener noreferrer"><i
+            className="fab fa-twitter"/></a>
+          <a href='https://dev.to/joseogam' target="_blank" rel="noopener noreferrer"><i
+            className="fab fa-dev"/></a>
+          <a href='https://www.linkedin.com/in/joseph-otieno-73a99b168/' target="_blank"
+             rel="noopener noreferrer"><i
+            className="fab fa-linkedin"/></a>
         </div>
         <span className="pages-link">
           <Link to="/">Portfolio</Link>
                         |
-          <Link to="/blog">Blog</Link>
+           <Link to="/about">About</Link>
                         |
-          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
         </span>
         <hr/>
       </div>

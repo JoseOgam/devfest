@@ -45,7 +45,7 @@ input {
     cursor: pointer;
     /* Icon */ }
     .tab-label:hover {
-      color: cornflowerblue; }
+      color: crimson; }
     .tab-label::after {
       width: 1em;
       height: 1em;
@@ -78,7 +78,7 @@ input:checked ~ .tab-content {
   margin-top: 10px;
   text-decoration: none; }
   .repolinks a:hover {
-    color: cornflowerblue; }
+    color: crimson; }
   .repolinks a:visited {
     text-decoration: none; }
 
