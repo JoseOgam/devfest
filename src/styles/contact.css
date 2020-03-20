@@ -1,0 +1,39 @@
+.button {
+    background-color: crimson;
+    display: inline-block;
+    border-radius: 2rem;
+    border: 0.16rem;
+    font-weight: 300;
+    text-align: center;
+    transition: all 0.2s;
+    padding: 0.3rem 1.2rem;
+    margin: 0 0.1rem 0.1rem 0;
+    box-sizing: border-box;
+}
+
+.button:hover{
+    background-color: midnightblue;
+}
+
+.content{
+    align-content: center;
+}
+
+.h2{
+    color: black;
+    text-decoration-style: solid;
+    font-weight: bolder;
+}
+
+.h2:hover{
+    color: crimson;
+}
+
+.ul{
+ list-style-type: disc;
+}
+
+.h5{
+    text-decoration-style: revert;
+    text-decoration: slategray;
+}
