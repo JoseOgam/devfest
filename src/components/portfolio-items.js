@@ -37,7 +37,7 @@ const portfolioItems = [
   },
   {
     title: 'Still writing code',
-    sinopsis: 'Please message me at twitter @codigoMate',
+    sinopsis: 'Please message me at twitter @joseogam',
     desc: 'I really appriciate any messages',
     img: './portfolio/Mate.png',
     repo: 'https://github.com/JoseOgam',

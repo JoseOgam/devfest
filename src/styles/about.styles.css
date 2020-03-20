@@ -1,5 +1,5 @@
 /*# sourceMappingURL=about.styles.css.map */
-@media(min-width: 700px) {
+@media (min-width: 700px) {
     .main {
 
         display: flex;
@@ -13,6 +13,7 @@
 h2 {
     font-weight: normal;
 }
+
 .logoContainer {
     text-align: center;
 }
@@ -33,15 +34,18 @@ h2 {
     padding: 1rem;
     align-self: center;
 }
+
 .img {
     border-radius: 100%;
 }
+
 .imagen {
     justify-content: center;
     flex-direction: column;
     align-self: center;
-    width:100%;
+    width: 100%;
 }
+
 .texto {
     display: flex;
     flex-direction: column;
@@ -64,7 +68,7 @@ p {
 .derecha {
     padding: 1.4rem;
     flex-direction: row;
-    flex:2;
+    flex: 2;
     font-size: 1.2rem;
     text-align: justify;
     margin: auto;
@@ -81,16 +85,15 @@ p {
 
 .social:hover {
 
-    color:cornflowerblue;
+    color: cornflowerblue;
 }
-
 
 
 .social-container {
     text-align: center;
 }
 
-@media(max-width: 1050px) {
+@media (max-width: 1050px) {
 
     .derecha {
 
@@ -111,7 +114,7 @@ p {
 
 }
 
-@media(max-width: 900px) {
+@media (max-width: 900px) {
 
     h2 {
         text-align: center;
@@ -123,7 +126,7 @@ p {
 }
 
 
-@media(max-width: 400px) {
+@media (max-width: 400px) {
 
     .iconos {
         font-size: .6rem;
@@ -132,9 +135,7 @@ p {
 }
 
 
-
-
-@media(max-width: 550px) {
+@media (max-width: 550px) {
 
     .derecha {
 
@@ -149,4 +150,8 @@ p {
 
     }
 
+}
+
+.button {
+  background-color: crimson;
 }

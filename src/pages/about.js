@@ -1,12 +1,13 @@
 import React from "react";
 import Layout from "../components/layout";
 import aboutStyle from "../styles/about.styles.css";
+import SEO from "../components/seo"
 
 const About = () => {
   return (
     <Layout>
+      <SEO title="About"/>
       <h2>My name is Joseph, nice to meet you!</h2>
-
       <div className={aboutStyle.main}>
         <div className={aboutStyle.izquierda}>
           <div className={aboutStyle.imagen}>
