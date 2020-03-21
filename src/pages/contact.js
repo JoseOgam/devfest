@@ -8,8 +8,7 @@ const Contact = () => (
   <Layout>
     <SEO title="Contact"/>
     <div className="content">
-      <h2 className="h2">Have me in your team...Download my
-        <Link className="button" to="/">Resume</Link>
+      <h2 className="h2">Have me in your team...
       </h2>
       <div>
         <h3>Reach me out at</h3>

@@ -25,7 +25,7 @@ const Header = () => {
         <div className="dev">
           <h1 className="metadata">{data.site.siteMetadata.title}</h1>
           <span className="dot">•</span>
-          <span className="attr">Software Engineer</span>
+          <span className="attr">Fullstack Web Developer</span>
           <span className="dot">•</span>
         </div>
         <div className="icons">

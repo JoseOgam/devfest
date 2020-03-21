@@ -21,7 +21,7 @@ const About = () => {
           <p>I am active member of the #DEVcommunity online, and I write weekly
             blog posts about topics I am
             learning or experiences I had.</p>
-          <p>When I am not coding, you can find me tweeting to #100DaysOfCoding
+          <p>When I am not coding, you can find me tweeting to #100DaysOfCode
             or watching Nat Geo Wild.</p>
 
           <div className={aboutStyle.socialContainer}>
