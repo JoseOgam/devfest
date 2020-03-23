@@ -50,9 +50,12 @@ i {
 
 .pages-link {
   padding: 0 2rem 0 2rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+}
   .pages-link a {
-    padding: 0 1rem 1rem 1rem; }
+    padding: 0 1rem 1rem 1rem;
+    text-decoration: none;
+  }
 
 @media (max-width: 1400px) {
   .header-main {
@@ -72,9 +75,5 @@ i {
   .nodecor:hover {
     color: #eda664; }
 
-.pachi {
-  font-family: 'Anonymous Pro', monospace;
-  text-decoration: underline;
-  padding: 50px 0; }
 
 /*# sourceMappingURL=header.styles.css.map */
