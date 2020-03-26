@@ -11,7 +11,7 @@ const portfolioItems = [
   {
     title: 'My Website',
     sinopsis: 'This is a Laravel/Vuejs project. Click to open',
-    desc: 'This is just a javascript array of objects. Gatsby makes the JSX elements to show up',
+    desc: 'Made with Love my official website which i developed with Laravel/Vuejs',
     img: './portfolio/port2.png',
     live: 'https://legit.co.ke/',
     repo: 'https://github.com/JoseOgam/vue-spa',
