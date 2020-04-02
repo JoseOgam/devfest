@@ -36,12 +36,12 @@ const portfolioItems = [
     idx: 3
   },
   {
-    title: 'Still writing code',
-    sinopsis: 'Please message me at twitter @joseogam',
-    desc: 'I really appriciate any messages',
-    img: './portfolio/Mate.png',
-    repo: 'https://github.com/JoseOgam',
-    live: 'https://github.com/JoseOgam',
+    title: 'Bus log front end',
+    sinopsis: 'built with html5,css & js',
+    desc: 'Bus ticketing reservation front end',
+    img: './portfolio/port5.png',
+    repo: 'https://github.com/JoseOgam/Bus-Log-Front-end',
+    live: 'https://buslog.netlify.com/',
     idx: 5
   }
 
