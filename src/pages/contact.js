@@ -3,8 +3,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../styles/contact.css"
 
-const Contact = () => (
-  <Layout>
+const Contact = () => {
+  return (
+    <Layout>
     <SEO title="Contact"/>
     <div className="content">
       <h2 className="h2">Have me in your team...
@@ -16,7 +17,7 @@ const Contact = () => (
             <h5 className="h5">
               +254700013671 <br/> +254733989993
             </h5>
-            </li>
+          </li>
         </ul>
         <hr/>
         <ul>
@@ -26,6 +27,7 @@ const Contact = () => (
 
     </div>
   </Layout>
-)
+  )
+}
 
 export default Contact
